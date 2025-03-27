@@ -8,7 +8,5 @@ resource "aws_instance" "three" {
   tags = {
     Name = "abc-server"
   }
-  provisioner "local-exec" {
-    command = "echo this is my local server"
-  }
+  
 }
